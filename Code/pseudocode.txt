@@ -1,0 +1,20 @@
+//Pseudo code for Gimbal system
+Initiate device
+Obtain mode of operation (user input: "1" for commanded angle and "2" for trace)
+if mode ==1
+               Obtain desired X axis angle (user input)
+               Move stepper in X axis to desired angle
+               Update X axis location
+               Obtain desired Y axis angle (user input)
+               Move stepper in Y axis to desired angle
+               Update y axis location
+else if mode ==2
+               Obtain desired target X axis angle (user input)
+               Obtain desired target Y axis angle (user input)
+               Loop Y angle from zero to Y target in specified steps
+                               Loop X angle from zero to X target in specified steps
+                                              Move stepper in Y axis to next angle
+                                              Update Y axis location
+                                              Move stepper in X axis to next angle
+                                              Update X axis location
+else display error (must enter either "1" or "2")
