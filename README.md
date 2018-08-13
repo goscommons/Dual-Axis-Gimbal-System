@@ -1,5 +1,5 @@
 # Open Source Dual Axis Gimbal System
-![Dual-Axis-Gimbal-System](/images/img01.jpg)
+![Dual-Axis-Gimbal-System](/images/001.jpg)
 ## Highlights
 - Low-cost 3-D printable open source dual axis gimbal system is presented.
 - Arduino based microcontroller used to move over two degrees of freedom.
